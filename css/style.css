@@ -682,6 +682,10 @@ a:hover {
 //--//-->   ABOUT
 ======================================*/
 
+.about-info {
+  margin-bottom: 1rem;
+}
+
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -753,6 +757,10 @@ a:hover {
 /*======================================
 //--//-->   COUNTER
 ======================================*/
+
+div#hourscoding {
+  margin-bottom: 20px;
+}
 
 .counter-box {
   color: #fff;
