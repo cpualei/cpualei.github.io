@@ -92,11 +92,20 @@ a:hover {
   overflow: hidden;
 }
 
+.intro .bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  min-height:100vh;
+}
+
 .bg-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  /* min-height:100vh; */
 }
 
 .overlay-mf {
@@ -137,7 +146,7 @@ a:hover {
 
 .sect-pt4 {
   padding-top: 4rem;
-  background-color: #316473;
+  background-color: #ffffff;
 }
 
 .sect-mt4 {
@@ -166,7 +175,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #ffffff;
+  color: #4e4e4e;
 }
 
 .line-mf {
@@ -817,7 +826,7 @@ div#hourscoding {
 
 .work-content {
   padding: 1rem 3% 1rem 4%;
-  background-color: #bbc6cf;
+  background-color: #ffffff;
 }
 
 .work-content .w-more {
