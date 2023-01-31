@@ -137,6 +137,7 @@ a:hover {
 
 .sect-pt4 {
   padding-top: 4rem;
+  background-color: #316473;
 }
 
 .sect-mt4 {
@@ -165,7 +166,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #ffffff;
 }
 
 .line-mf {
@@ -204,10 +205,9 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
-  background-color: #fff;
-  margin-bottom: 3rem;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 4rem;
   z-index: 2;
-  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2); */
 }
 
 /*------/ Socials /------*/
@@ -684,11 +684,13 @@ a:hover {
 
 .about-info {
   margin-bottom: 1rem;
+  color: #4e4e4e;
 }
 
 .about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  /* padding-top: 4rem; */
+  /* padding-bottom: 4rem; */
+  background-color: #ffffff;;
 }
 
 .about-mf .about-img {
@@ -814,7 +816,8 @@ div#hourscoding {
 }
 
 .work-content {
-  padding: 2rem 3% 1rem 4%;
+  padding: 1rem 3% 1rem 4%;
+  background-color: #bbc6cf;
 }
 
 .work-content .w-more {
@@ -823,7 +826,9 @@ div#hourscoding {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #316473;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .work-content .w-like {
