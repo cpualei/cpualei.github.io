@@ -26,6 +26,11 @@ h3 {
   color: white;
 }
 
+.testimonial-h3 {
+  color: #1e1e1e;
+  margin: 0;
+}
+
 a {
   color: #1e1e1e;
   transition: all 0.5s ease-in-out;
@@ -35,6 +40,10 @@ a:hover {
   color: #0078ff;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
+}
+
+.lead {
+  font-size: 1rem;
 }
 
 .p-r {
@@ -158,7 +167,7 @@ a:hover {
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 5px;
 }
 
@@ -887,7 +896,7 @@ div#hourscoding {
 }
 
 .testimonial-box .author-test {
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 .testimonial-box .author-test img {
