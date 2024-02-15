@@ -16,11 +16,14 @@ body {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   color: #1e1e1e;
+}
+
+h3 {
+  color: white;
 }
 
 a {
@@ -82,7 +85,7 @@ a:hover {
 
 .row {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .avatar {
@@ -109,10 +112,6 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #151f29d5;
-}
-
-.overlay-mf {
   position: absolute;
   top: 0;
   left: 0px;
@@ -120,6 +119,7 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: .7;
+  /* background-color: white; */
 }
 
 .paralax-mf {
@@ -175,7 +175,7 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: white;
 }
 
 .line-mf {
@@ -217,6 +217,7 @@ a:hover {
   background-color: rgb(255, 255, 255);
   margin-bottom: 4rem;
   z-index: 2;
+  display: flex;
 }
 
 /*------/ Socials /------*/
@@ -877,6 +878,7 @@ div#hourscoding {
 
 .rounded-circle {
   height: 100px;
+  width: 100px;
 }
 
 .testimonial-box {
@@ -893,7 +895,7 @@ div#hourscoding {
 }
 
 .testimonial-box .author {
-  color: #fff;
+  color: #1e1e1e;
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 0;
@@ -1128,14 +1130,16 @@ footer {
 
 footer .copyright {
   margin-bottom: .3rem;
+  color: #1e1e1e;
 }
 
 footer .credits {
   margin-bottom: 0;
+  color: #1e1e1e;
 }
 
 footer .credits a {
-  color: #fff;
+  color: #1e1e1e;
 }
 
 /*======================================
@@ -1280,6 +1284,7 @@ footer .credits a {
   .testimonial-box .description {
     padding: 0 5rem;
     font-size: 15px;
+    color: #1e1e1e;
   }
 
   .post-box,
