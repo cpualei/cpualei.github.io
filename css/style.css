@@ -896,7 +896,7 @@ div#hourscoding {
 }
 
 .testimonial-box .author-test {
-  /* margin-top: 1rem; */
+  margin-top: 1rem;
 }
 
 .testimonial-box .author-test img {
@@ -1139,16 +1139,16 @@ footer {
 
 footer .copyright {
   margin-bottom: .3rem;
-  color: #1e1e1e;
+  color: #fff;
 }
 
 footer .credits {
   margin-bottom: 0;
-  color: #1e1e1e;
+  color: #fff;
 }
 
 footer .credits a {
-  color: #1e1e1e;
+  color: #fff;
 }
 
 /*======================================
